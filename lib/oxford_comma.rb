@@ -10,9 +10,7 @@ elsif array.length == 2
   array.join (" ")
 else
   array.join
-
 end
-  # binding.pry
 end
 
 
