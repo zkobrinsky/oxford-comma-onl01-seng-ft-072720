@@ -3,10 +3,10 @@ require 'pry'
 def oxford_comma(array)
   # binding.pry
   if array.length > 2
-  array.last = "and #{array.last}"
+  array[-1] = "and #{array[-1]}"
   array.join(", ")
 else
-  array.last = "and #{array.last}"
+  array[-1] = "and #{array[-1]}"
 
 end
   # binding.pry
