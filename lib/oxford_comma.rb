@@ -11,6 +11,3 @@ else
   array.join
 end
 end
-
-
-
