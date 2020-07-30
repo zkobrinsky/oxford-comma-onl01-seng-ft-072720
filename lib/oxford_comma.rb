@@ -5,8 +5,10 @@ def oxford_comma(array)
   if array.length > 2
   array[-1] = "and #{array[-1]}"
   array.join(", ")
-else
+elsif array.length == 2
   array[-1] = "and #{array[-1]}"
+else 
+  array.join
 
 end
   # binding.pry
